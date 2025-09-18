@@ -9,5 +9,5 @@ builder.Services.AddDbContext<FlashCardsAppContext>(
 );
 
 var app = builder.Build();
-
+await app.MigrateDbAsync();
 app.Run();
