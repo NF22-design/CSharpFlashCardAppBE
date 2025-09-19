@@ -7,4 +7,5 @@ public record class CreateDeckDTO(
     [Required] int GenreId,
     int NumberOfCards,
     int FlippedCards,
-    DateOnly CreationDate);
+    DateOnly CreationDate
+);
